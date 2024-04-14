@@ -92,7 +92,7 @@ let salaries = {
 	Samat: 130
 }
 
-// let sum = 0;
+let sum = 0;
 for (let key in salaries) {
     sum = sum + salaries[key];
     // or sum += salaries[key];
