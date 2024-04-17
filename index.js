@@ -1,101 +1,65 @@
-//Task 1
+// Task 1
+// Practice communicating with the user via alert / confirm / prompt
+// let user = {};
 
-// 1) Use let, const
-const myRestourant = "Red Lobster";
-let shop = "Sea Foods";
-const myFootballTeam = "Kaysar";
+// user.name = prompt("Как вас зовут?");
+// user.age = prompt("Сколько вам лет?");
+// user.gender = confirm("Вы мужчина? Выберите 'Ок' если да, 'Отмена' если нет");
 
-console.log("Restoraunt name:", myRestourant);
-console.log("Shop name:", shop);
-console.log("My football team name:", myFootballTeam);
+// if (user.gender === true) {
+//     user.gender = "Мужчина"
+// } else {
+//     user.gender = "Женщина"
+// }
 
-// 2) data types - string, number, boolean, null, undefined
-let restourant = "Fish Basket";
-let capacity = 75;
-let isOpen = true;
-let country = null;
-let city;
+// console.log("Имя пользователя:", user.name);
+// console.log("Возраст пользователя:", user.age);
+// console.log("Пол пользователя:", user.gender);
 
-console.log("Ресторан:", restourant, "Вместимость:", capacity, "Открыто:", isOpen, "Страна:", country, "Город:", city);
+// alert("name: " + user.name + "\nage: " + user.age + "\ngender: " + user.gender);
 
-const FootballTeam = "Kayrat";
-let countOfPlayers = 22;
-let isChampion = false;
-let worldChampionship = null;
-let leadership;
+// Task 2
+// Working with operators
+// let number = prompt();
 
-console.log(FootballTeam, countOfPlayers, isChampion, worldChampionship, leadership);
+// if (!isNaN(number)) {
+//     alert(number) 
+// }  else {
+//     alert(NaN)
+// }
+// console.log(number); // Надеюсь, что понял условие задачи правильно
 
-const shop1 = "Talgatbek";
-let countOfSellers = 2;
-let isBig = false;
-let sporting_goods = null;
-let salary;
+// Task 3
+// Working with conditions
+// let a = +prompt('a?', '');
+// console.log(String(a)) // string
+// a = +a
+// console.log(Number(a)) // number
 
-console.log(shop1, countOfSellers, isBig, sporting_goods, salary);
+// switch(a) {
+//     case 0:
+//         alert( 0 );
+//         break;  
+//     case 1: 
+//         alert( 1 );
+//         break;
+//     case 2:
+//     case 3:
+//         alert( '2,3' );
+//     default: 
+//         undefined;
+// }
 
-// 3) Objects - create, add and delete properties
-let cafe = {
-    name: "Myata",
-    waiters: 10,
-    cheaf: "Azat",
-}
-console.log(cafe);
-
-cafe.location = "Almaty";
-cafe["street"] = "Al'Farabi";
-console.log(cafe);
-
-delete cafe.cheaf;
-delete cafe["waiters"];
-console.log(cafe);
-
-let football = {
-    nameOfTeam: "Kaysar",
-    players: 30,
-    teamLeader: "Aslan",
-}
-console.log(football);
-
-football.legioner = "Mbappe";
-football["legioner1"] = "Maradonna";
-console.log(football);
-
-delete football.legioner;
-delete football["players"];
-console.log(football);  // далее в том же духе))
-
-// Task 2 Working with objects
-
-// 1) create empty object named "vehicle"
-let vehicle = {
-
-}
-// 2) add brandName
-vehicle.brandName = "BMW";
-console.log(vehicle);
-// 3) add model
-vehicle.model = "X5";
-console.log(vehicle);
-// change the model
-vehicle.model = "M1";
-console.log(vehicle);
-// delete model
-delete vehicle.model;
-console.log(vehicle);
-
-// Task 3 Working with property enumeration in objects
-
-let salaries = {
-	Aroo: 100,
-	Dalida: 160,
-	Samat: 130
-}
-
+//Task 4
+// Working with loops
+let n = 2;
 let sum = 0;
-for (let key in salaries) {
-    sum = sum + salaries[key];
-    // or sum += salaries[key];
+while (n<=100) {
+    if(n%2 === 0) {
+        // alert( `number ${n}!` );
+        sum = sum + n; // or sum += n (это я для себя, все время забываю, что они идентичны)
+    }
+    n++;
 }
+console.log(sum);
 
-console.log("Total sum of salaries is:", sum);
