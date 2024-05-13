@@ -7,8 +7,9 @@
 
 .menu {
     display: none;
-    border: 2px solid #66CDAA;
-    background-color: rgb(195, 186, 185);
+    border: 1px solid rgba(178, 178, 175, 0.688);;
+    border-radius: 10px;
+    /* background-color: rgba(178, 178, 175, 0.258);; */
     padding: 0px 20px;
     width: 250px;
     height: 100%;
@@ -36,12 +37,18 @@
 
 .menu-toggle {
     display: flex;
+    border-radius: 10px;
     width: 290px;
     height: 100%;
-    border: 2px solid #66CDAA;
+    border: 1px solid rgba(178, 178, 175, 0.688);;
+    background-color: rgba(178, 178, 175, 0.258);
 
 }
 
 .drop, .hide {
     width: 40px;
+    border-radius: 8px;
+    border: none;
+    color: black;
+    background-color: rgba(178, 178, 175, 0.688);;
 }
