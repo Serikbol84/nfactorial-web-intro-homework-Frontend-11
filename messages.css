@@ -1,26 +1,27 @@
+ /* ==========================================Task3==================================== */
 body {
     margin: 10px auto;
     width: 470px;
-  }
+}
   
-  h3 {
+h3 {
     margin: 0;
     padding-bottom: .3em;
     font-size: 1.1em;
-  }
+}
   
-  p {
+p {
     margin: 0;
     padding: 0 0 .5em;
-  }
+}
   
-  .pane {
+.pane {
     background: #edf5e1;
     padding: 10px 20px 10px;
     border-top: solid 2px #c4df9b;
-  }
+}
   
-  .remove-button {
+.remove-button {
     font-size: 110%;
     color: darkred;
     right: 10px;
@@ -29,4 +30,7 @@ body {
     border: none;
     background: transparent;
     cursor: pointer;
-  }
+} 
+
+  
+

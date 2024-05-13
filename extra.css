@@ -1,0 +1,46 @@
+ /* ==========================================Extra-Task==================================== */
+ body {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0;
+}
+
+.menu {
+    display: none;
+    border: 2px solid #66CDAA;
+    background-color: rgb(195, 186, 185);
+    padding: 0px 20px;
+    width: 250px;
+    height: 100%;
+    cursor: pointer;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li {
+    padding: 10px 0;
+    border-bottom: 1px solid #555;
+}
+
+.menu li:last-child {
+    border-bottom: none;
+}
+
+.menu li:hover {
+    background-color: #555;
+}
+
+.menu-toggle {
+    display: flex;
+    width: 290px;
+    height: 100%;
+    border: 2px solid #66CDAA;
+
+}
+
+.drop, .hide {
+    width: 40px;
+}

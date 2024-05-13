@@ -30,3 +30,11 @@ message.forEach(function(pane) {
     });
 });
 
+//=================================== Extra-Task  ===========================================
+
+const menuChange = document.getElementById("menu-change");
+const menu = document.getElementById("menu");
+
+menuChange.addEventListener('click', () => {
+    menu.classList.toggle('active');
+});
