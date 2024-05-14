@@ -1,5 +1,5 @@
- /* ==========================================Extra-Task==================================== */
- body {
+ /* ==========================================Drop Menu==================================== */
+body {
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     padding: 0;
@@ -9,7 +9,6 @@
     display: none;
     border: 1px solid rgba(178, 178, 175, 0.688);;
     border-radius: 10px;
-    /* background-color: rgba(178, 178, 175, 0.258);; */
     padding: 0px 20px;
     width: 250px;
     height: 100%;
@@ -52,3 +51,43 @@
     color: black;
     background-color: rgba(178, 178, 175, 0.688);;
 }
+
+/* ==========================================Karusel==================================== */
+/* .arrow {
+    padding: 0;
+    background: #ddd;
+    border-radius: 15px;
+    border: 1px solid gray;
+    font-size: 24px;
+    line-height: 24px;
+    color: #444;
+    display: block;
+}
+  
+.arrow:focus {
+    outline: none;
+}
+  
+.arrow:hover {
+    background: #ccc;
+    cursor: pointer;
+}
+  
+ul {
+    height: 130px;
+    width: 9999px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 0;
+}
+  
+ul img {
+    width: 130px;
+    height: 130px;
+    display: block; /* убираем пустое место вокруг картинок */
+}
+  
+ul li {
+    display: inline-block; /* убираем пустое место между элементами списка */
+} */

@@ -1,3 +1,4 @@
+// ===================================== Drop Menu ========================================
 const dropButton = document.getElementById('drop');
 const hideButton = document.getElementById('hide');
 const menuList = document.getElementById('menu');
@@ -13,3 +14,5 @@ hideButton.addEventListener('click', () => {
     hideButton.style.display = 'none';
     dropButton.style.display = 'block';
 });
+
+// ===================================== Karusel ========================================
